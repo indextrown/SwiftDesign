@@ -16,3 +16,6 @@ struct SwiftDesignApp: App {
     }
 }
 
+#Preview {
+    ContentView(isToggled: .init())
+}

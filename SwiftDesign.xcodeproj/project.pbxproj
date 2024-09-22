@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF8DB84E2CA08A9B00D01DB1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */; };
 		DFF47F922C9F240F00F15433 /* SwiftDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */; };
 		DFF47F942C9F240F00F15433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF47F932C9F240F00F15433 /* ContentView.swift */; };
 		DFF47F962C9F241000F15433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF47F952C9F241000F15433 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		DFF47F8E2C9F240F00F15433 /* SwiftDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDesignApp.swift; sourceTree = "<group>"; };
 		DFF47F932C9F240F00F15433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */,
 				DFF47F932C9F240F00F15433 /* ContentView.swift */,
 				DFF47F9F2C9F2B0900F15433 /* CustomButton.swift */,
+				DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */,
 				DFF47F952C9F241000F15433 /* Assets.xcassets */,
 				DFF47F972C9F241000F15433 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF47F942C9F240F00F15433 /* ContentView.swift in Sources */,
+				DF8DB84E2CA08A9B00D01DB1 /* CustomView.swift in Sources */,
 				DFF47F922C9F240F00F15433 /* SwiftDesignApp.swift in Sources */,
 				DFF47FA02C9F2B0900F15433 /* CustomButton.swift in Sources */,
 			);
