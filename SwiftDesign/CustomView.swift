@@ -21,3 +21,7 @@ struct DetailView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
+#Preview {
+    DetailView(item: "테스트")
+}
