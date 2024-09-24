@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF8DB84E2CA08A9B00D01DB1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */; };
+		DF4562AA2CA2B9B700FAAE62 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562A92CA2B9B700FAAE62 /* NotificationManager.swift */; };
+		DF4562AD2CA2FD6000FAAE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */; };
+		DF4562B02CA2FEBF00FAAE62 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */; };
+		DF8DB84E2CA08A9B00D01DB1 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */; };
+		DFC8F71E2CA1786800B27C78 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */; };
+		DFC8F7212CA178CD00B27C78 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F7202CA178CD00B27C78 /* ListView.swift */; };
+		DFC8F7252CA1798400B27C78 /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F7242CA1798400B27C78 /* CustomListView.swift */; };
+		DFC8F7282CA1823F00B27C78 /* BackgroundStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F7272CA1823F00B27C78 /* BackgroundStatusView.swift */; };
+		DFC8F72A2CA1890700B27C78 /* BackgroundAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F7292CA1890700B27C78 /* BackgroundAlarmView.swift */; };
 		DFF47F922C9F240F00F15433 /* SwiftDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */; };
 		DFF47F942C9F240F00F15433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF47F932C9F240F00F15433 /* ContentView.swift */; };
 		DFF47F962C9F241000F15433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF47F952C9F241000F15433 /* Assets.xcassets */; };
@@ -16,7 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		DF4562A92CA2B9B700FAAE62 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DF4562AB2CA2BC5A00FAAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		DFC8F7202CA178CD00B27C78 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DFC8F7242CA1798400B27C78 /* CustomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
+		DFC8F7272CA1823F00B27C78 /* BackgroundStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundStatusView.swift; sourceTree = "<group>"; };
+		DFC8F7292CA1890700B27C78 /* BackgroundAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAlarmView.swift; sourceTree = "<group>"; };
 		DFF47F8E2C9F240F00F15433 /* SwiftDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDesignApp.swift; sourceTree = "<group>"; };
 		DFF47F932C9F240F00F15433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +53,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF4562A82CA2B9A400FAAE62 /* NotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF4562A92CA2B9B700FAAE62 /* NotificationManager.swift */,
+			);
+			path = NotificationManager;
+			sourceTree = "<group>";
+		};
+		DFC8F71C2CA1785700B27C78 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DFF47F9F2C9F2B0900F15433 /* CustomButton.swift */,
+				DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		DFC8F71F2CA178B800B27C78 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */,
+				DFC8F7202CA178CD00B27C78 /* ListView.swift */,
+				DFC8F7242CA1798400B27C78 /* CustomListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		DFC8F7262CA1823000B27C78 /* BackgroundTask */ = {
+			isa = PBXGroup;
+			children = (
+				DFC8F7272CA1823F00B27C78 /* BackgroundStatusView.swift */,
+				DFC8F7292CA1890700B27C78 /* BackgroundAlarmView.swift */,
+			);
+			path = BackgroundTask;
+			sourceTree = "<group>";
+		};
 		DFF47F852C9F240F00F15433 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +108,15 @@
 		DFF47F902C9F240F00F15433 /* SwiftDesign */ = {
 			isa = PBXGroup;
 			children = (
+				DF4562AB2CA2BC5A00FAAE62 /* Info.plist */,
 				DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */,
+				DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */,
 				DFF47F932C9F240F00F15433 /* ContentView.swift */,
-				DFF47F9F2C9F2B0900F15433 /* CustomButton.swift */,
-				DF8DB84D2CA08A9B00D01DB1 /* CustomView.swift */,
+				DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */,
+				DF4562A82CA2B9A400FAAE62 /* NotificationManager */,
+				DFC8F7262CA1823000B27C78 /* BackgroundTask */,
+				DFC8F71C2CA1785700B27C78 /* Button */,
+				DFC8F71F2CA178B800B27C78 /* List */,
 				DFF47F952C9F241000F15433 /* Assets.xcassets */,
 				DFF47F972C9F241000F15433 /* Preview Content */,
 			);
@@ -143,9 +201,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4562AD2CA2FD6000FAAE62 /* AppDelegate.swift in Sources */,
+				DFC8F71E2CA1786800B27C78 /* CustomButtonView.swift in Sources */,
+				DFC8F7212CA178CD00B27C78 /* ListView.swift in Sources */,
+				DF4562AA2CA2B9B700FAAE62 /* NotificationManager.swift in Sources */,
+				DF4562B02CA2FEBF00FAAE62 /* BackgroundTaskManager.swift in Sources */,
+				DFC8F7282CA1823F00B27C78 /* BackgroundStatusView.swift in Sources */,
 				DFF47F942C9F240F00F15433 /* ContentView.swift in Sources */,
-				DF8DB84E2CA08A9B00D01DB1 /* CustomView.swift in Sources */,
+				DF8DB84E2CA08A9B00D01DB1 /* ListDetailView.swift in Sources */,
 				DFF47F922C9F240F00F15433 /* SwiftDesignApp.swift in Sources */,
+				DFC8F72A2CA1890700B27C78 /* BackgroundAlarmView.swift in Sources */,
+				DFC8F7252CA1798400B27C78 /* CustomListView.swift in Sources */,
 				DFF47FA02C9F2B0900F15433 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +349,7 @@
 				DEVELOPMENT_TEAM = LGX4B4WC66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDesign/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +381,7 @@
 				DEVELOPMENT_TEAM = LGX4B4WC66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDesign/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

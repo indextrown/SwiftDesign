@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DetailView: View {
+struct ListDetailView: View {
     let item: String
     
     var body: some View {
@@ -23,5 +23,5 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(item: "테스트")
+    ListDetailView(item: "테스트")
 }
