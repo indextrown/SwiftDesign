@@ -45,17 +45,11 @@ struct ContentView: View {
                             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
                                 if granted {
                                     print("알림 권한 허용됨")
-                                    //sendNotification()
+                                    sendNotification()
                                 } else {
                                     print("알림 권한 거부됨")
                                 }
                             }
-                        }
-                    }
-                    
-                    Section(header: Text("버튼 UI")) {
-                        NavigationLink(destination: CustomButtonView()) {
-                            Text("Button")
                         }
                     }
                     
@@ -80,14 +74,29 @@ struct ContentView: View {
                             Text("Background Alarm 30")
                         }
                     }
+                    
+                    Section(header: Text("지도")) {
+                        NavigationLink(destination: MapView()) {
+                            Text("Mapkit")
+                        }
+                        
+                        NavigationLink(destination: MapLocationManagerView()) {
+                            Text("MapLocationManager")
+                        }
+                    }
                 }
-                .navigationTitle("UI 정리")
+                .navigationTitle("UI 리스트")
             }
             .onAppear {
-                requestNotificationAuthorization()   // 알림 권한 요청
-                startBackgroundNotifications()       // 백그라운드 알림 시작
-                startHourlyNotifications()       // 백그라운드 알림 시작
-                //scheduleApiCalls() // API 호출 시작
+                // MARK: - 앱꺼도 1분간격으로 동작
+                // startBackgroundNotifications()
+                startHourlyNotifications()
+                
+                
+                //requestNotificationAuthorization()   // 알림 권한 요청
+                //scheduleApiCalls()
+//                startBackgroundNotifications()       // 백그라운드 알림 시작
+//                startHourlyNotifications()       // 백그라운드 알림 시작
             }
         }
     }
@@ -101,7 +110,3 @@ struct ContentView: View {
 
 
 
-
-
-//                startBackgroundNotifications()       // 백그라운드 알림 시작
-//                startHourlyNotifications2()

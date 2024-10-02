@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF20A9B42CAD195700F3D1B5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20A9B32CAD195700F3D1B5 /* MapView.swift */; };
+		DF20A9B62CAD1E9600F3D1B5 /* MapLocationManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20A9B52CAD1E9600F3D1B5 /* MapLocationManagerView.swift */; };
 		DF4562AA2CA2B9B700FAAE62 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562A92CA2B9B700FAAE62 /* NotificationManager.swift */; };
 		DF4562AD2CA2FD6000FAAE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */; };
-		DF4562B02CA2FEBF00FAAE62 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */; };
 		DF8DB84E2CA08A9B00D01DB1 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */; };
 		DFC8F71E2CA1786800B27C78 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */; };
 		DFC8F7212CA178CD00B27C78 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8F7202CA178CD00B27C78 /* ListView.swift */; };
@@ -24,10 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF20A9B32CAD195700F3D1B5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DF20A9B52CAD1E9600F3D1B5 /* MapLocationManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationManagerView.swift; sourceTree = "<group>"; };
 		DF4562A92CA2B9B700FAAE62 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		DF4562AB2CA2BC5A00FAAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
 		DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 		DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		DFC8F7202CA178CD00B27C78 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF20A9B02CAD192A00F3D1B5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DF20A9B32CAD195700F3D1B5 /* MapView.swift */,
+				DF20A9B52CAD1E9600F3D1B5 /* MapLocationManagerView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		DF4562A82CA2B9A400FAAE62 /* NotificationManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,9 +121,9 @@
 			children = (
 				DF4562AB2CA2BC5A00FAAE62 /* Info.plist */,
 				DFF47F912C9F240F00F15433 /* SwiftDesignApp.swift */,
-				DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */,
 				DFF47F932C9F240F00F15433 /* ContentView.swift */,
-				DF4562AF2CA2FEBF00FAAE62 /* BackgroundTaskManager.swift */,
+				DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */,
+				DF20A9B02CAD192A00F3D1B5 /* Map */,
 				DF4562A82CA2B9A400FAAE62 /* NotificationManager */,
 				DFC8F7262CA1823000B27C78 /* BackgroundTask */,
 				DFC8F71C2CA1785700B27C78 /* Button */,
@@ -202,10 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4562AD2CA2FD6000FAAE62 /* AppDelegate.swift in Sources */,
+				DF20A9B42CAD195700F3D1B5 /* MapView.swift in Sources */,
+				DF20A9B62CAD1E9600F3D1B5 /* MapLocationManagerView.swift in Sources */,
 				DFC8F71E2CA1786800B27C78 /* CustomButtonView.swift in Sources */,
 				DFC8F7212CA178CD00B27C78 /* ListView.swift in Sources */,
 				DF4562AA2CA2B9B700FAAE62 /* NotificationManager.swift in Sources */,
-				DF4562B02CA2FEBF00FAAE62 /* BackgroundTaskManager.swift in Sources */,
 				DFC8F7282CA1823F00B27C78 /* BackgroundStatusView.swift in Sources */,
 				DFF47F942C9F240F00F15433 /* ContentView.swift in Sources */,
 				DF8DB84E2CA08A9B00D01DB1 /* ListDetailView.swift in Sources */,
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -328,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
