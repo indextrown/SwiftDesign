@@ -31,6 +31,7 @@
 		DF4562AB2CA2BC5A00FAAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF4562AC2CA2FD6000FAAE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF8DB84D2CA08A9B00D01DB1 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		DFABCFD12CAE6325005E7F40 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		DFC8F71D2CA1786800B27C78 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		DFC8F7202CA178CD00B27C78 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DFC8F7242CA1798400B27C78 /* CustomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 				DFC8F71F2CA178B800B27C78 /* List */,
 				DFF47F952C9F241000F15433 /* Assets.xcassets */,
 				DFF47F972C9F241000F15433 /* Preview Content */,
+				DFABCFD12CAE6325005E7F40 /* readme.md */,
 			);
 			path = SwiftDesign;
 			sourceTree = "<group>";
