@@ -37,7 +37,9 @@ struct MapView: View {
 }
 ```
 
-사용자의 실시간 위치 업데이트를 관리하기 위해 locationmanager를 생성한 후 MapKit을 통해 지도 출력:  
+<details><summary>사용자의 실시간 위치 업데이트를 관리하기 위해 locationmanager를 생성한 후 MapKit을 통해 지도 출력:  </summary>
+<p>
+
 ``` swift
 import SwiftUI
 import MapKit
@@ -86,10 +88,14 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
 ``` 
+</p>
+</details>
 
-내 위치를 지도에 표시하기(17.0 버전부터 UserAnnotation()방식 채택)
+
+<details><summary>내 위치를 지도에 표시하기(17.0 버전부터 UserAnnotation()방식 채택) </summary>
+<p>
+
 
 ``` swift
 /*
@@ -157,8 +163,12 @@ struct ContentView: View {
     ContentView()
 }
 ``` 
+</p>
+</details>
 
-처음 위치를 업데이트 한 후에는 추가 업데이트가 카메라 위치를 변경하지 않도록 설정
+<details><summary>처음 위치를 업데이트 한 후에는 추가 업데이트가 카메라 위치를 변경하지 않도록 설정</summary>
+<p>
+
 ``` swift
 import SwiftUI
 import MapKit
@@ -215,10 +225,14 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
 ```
+</p>
+</details>
 
-내위치로 이동하는 기능 추가
+
+<details><summary>내위치로 이동하는 기능 추가</summary>
+<p>
+
 ``` swift
 import SwiftUI
 import MapKit
@@ -313,6 +327,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
 ```
-
+</p>
+</details>
