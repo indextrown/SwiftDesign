@@ -14,9 +14,6 @@ struct SwiftDesignApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(isToggled: .init())
-//                .onAppear {
-//                backgroundTaskManager.scheduleAppRefresh() // 첫 번째 API 호출 예약
-//                            }
         }
     }
 }
