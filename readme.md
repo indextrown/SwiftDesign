@@ -12,6 +12,24 @@ UI에 **텍스트**를 표시하려면 다음과 같이 작성하세요:
 Text("Hello World")
 ```
 
+### Button
+
+`Button` 은, 클릭 이벤트를 발생시키기 위해 사용됩니다.
+
+``` swift
+Button(action: {
+    // 버튼 액션
+}) {
+    Text("버튼 이름")
+        // 디자인
+        .foregroundColor(.white)
+        .padding()
+        .background(.blue)
+        .cornerRadius(10)
+}
+```
+
+
 ### MapKit
 
 MapKit을 통해 지도 출력:  
