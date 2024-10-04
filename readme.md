@@ -23,7 +23,7 @@
 <h4 id="Text">Text</h4>
 
 To show a **text** in UI simply write:  
-UI에 **텍스트**를 표시하려면 다음과 같이 작성하세요:
+UI에 **텍스트**를 표시하려면 다음과 같이 작성하세요.
 ``` swift
 Text("Hello World")
 ```
@@ -52,7 +52,7 @@ Button(action: {
 <!--### MapKit-->
 <h4 id="MapKit"> MapKit </h4>
 
-`MapKit`을 통해 지도 출력:  
+`MapKit`을 통해 지도를 출력합니다.
 ``` swift
 import SwiftUI
 import MapKit
@@ -75,7 +75,7 @@ struct MapView: View {
 }
 ```
 
-<details><summary>사용자의 실시간 위치 업데이트를 관리하기 위해 locationmanager를 생성한 후 MapKit을 통해 지도 출력:  </summary>
+<details><summary>사용자의 실시간 위치 업데이트를 관리하기 위해 locationmanager를 생성한 후 MapKit을 통해 지도 출력  </summary>
 <p>
 
 ``` swift
