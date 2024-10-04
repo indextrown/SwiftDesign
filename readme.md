@@ -330,11 +330,10 @@ struct ContentView: View {
  <string>사용자의 위치를 확인하기 위해 위치 권한이 필요합니다.</string>
  <key>NSLocationAlwaysUsageDescription</key>
  <string>위치를 항상 확인하기 위해 권한이 필요합니다.</string>
- 
-  [해결2]
-  ![SwiftUI](./assets/Mapkit-Error.png)
  */
 ``` 
+[해결2]
+![SwiftUI](./assets/Mapkit-Error.png)
 
 </p>
 </details>
