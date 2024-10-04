@@ -96,22 +96,6 @@ struct ContentView: View {
 <details><summary>내 위치를 지도에 표시하기(17.0 버전부터 UserAnnotation()방식 채택) </summary>
 <p>
 
-
-``` swift
-/*
- [문제]
- CLLocationManager(<CLLocationManager: 0x3005b8570>) for <MKCoreLocationProvider: 0x3029a8300> did fail with error: Error Domain=kCLErrorDomain Code=1 "(null)"
- [문제]
- Missing MeshRenderables for ground mesh layer for (4/4) of ground tiles. Tile debug info: (Key: 654.1583.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 6, PendingMaterial count: 6, Invisible MeshInstances count: 0 | Key: 655.1582.12.255 t:33 kt:0, Has mesh errors: 1, MeshInstance count: 536, PendingMaterial count: 536, Invisible MeshInstances count: 0 | Key: 654.1582.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 312, PendingMaterial count: 312, Invisible MeshInstances count: 0 | Key: 655.1583.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 270, PendingMaterial count: 270, Invisible MeshInstances count: 0)
- 
- [해결]
- <key>NSLocationWhenInUseUsageDescription</key>
- <string>사용자의 위치를 확인하기 위해 위치 권한이 필요합니다.</string>
- <key>NSLocationAlwaysUsageDescription</key>
- <string>위치를 항상 확인하기 위해 권한이 필요합니다.</string>
- */
-``` 
-
 ``` swift
 import SwiftUI
 import MapKit
@@ -328,5 +312,29 @@ struct ContentView: View {
     ContentView()
 }
 ```
+</p>
+</details>
+
+<details><summary>Mapkit 경고 해결방법</summary>
+<p>
+
+``` swift
+/*
+ [문제]
+ CLLocationManager(<CLLocationManager: 0x3005b8570>) for <MKCoreLocationProvider: 0x3029a8300> did fail with error: Error Domain=kCLErrorDomain Code=1 "(null)"
+ [문제]
+ Missing MeshRenderables for ground mesh layer for (4/4) of ground tiles. Tile debug info: (Key: 654.1583.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 6, PendingMaterial count: 6, Invisible MeshInstances count: 0 | Key: 655.1582.12.255 t:33 kt:0, Has mesh errors: 1, MeshInstance count: 536, PendingMaterial count: 536, Invisible MeshInstances count: 0 | Key: 654.1582.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 312, PendingMaterial count: 312, Invisible MeshInstances count: 0 | Key: 655.1583.12.255 t:33 kt:0, Has mesh errors: 0, MeshInstance count: 270, PendingMaterial count: 270, Invisible MeshInstances count: 0)
+ 
+ [해결]
+ <key>NSLocationWhenInUseUsageDescription</key>
+ <string>사용자의 위치를 확인하기 위해 위치 권한이 필요합니다.</string>
+ <key>NSLocationAlwaysUsageDescription</key>
+ <string>위치를 항상 확인하기 위해 권한이 필요합니다.</string>
+ 
+  [해결2]
+  ![SwiftUI](./assets/Mapkit-Error.png)
+ */
+``` 
+
 </p>
 </details>
