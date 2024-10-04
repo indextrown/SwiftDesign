@@ -32,7 +32,7 @@ Text("Hello World")
 <!--### Button-->
 <h4 id="Button"> Button </h4>
 
-`Button` 은, 클릭 이벤트를 발생시키기 위해 사용됩니다.
+`Button`은, 클릭 이벤트를 발생시키기 위해 사용됩니다.
 
 ``` swift
 Button(action: {
@@ -52,7 +52,7 @@ Button(action: {
 <!--### MapKit-->
 <h4 id="MapKit"> MapKit </h4>
 
-MapKit을 통해 지도 출력:  
+`MapKit`을 통해 지도 출력:  
 ``` swift
 import SwiftUI
 import MapKit
