@@ -18,7 +18,7 @@
     - [MapKit](#MapKit)
 
 * <span id="Color_D">Color</span>
-    - [MapKit](#Color)
+    - [Color](#Color)
 
 # View
 
