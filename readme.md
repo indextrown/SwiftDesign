@@ -17,6 +17,9 @@
 * <span id="MapKit_D">MapKit</span>
     - [MapKit](#MapKit)
 
+* <span id="Color_D">Color</span>
+    - [MapKit](#Color)
+
 # View
 
 <!--### Text-->
@@ -661,3 +664,48 @@ struct HomeView: View {
 </p>
 </details>
 [🔝](#MapKit_D)
+
+<!--### Text-->
+<h4 id="Color">Color</h4>
+
+hex 문자열을 이용해 색상을 변환하는 확장 기능
+``` swift
+// UIColor 확장: hex 문자열을 UIColor로 변환하는 함수
+extension UIColor {
+    convenience init?(hex: String) {
+        var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
+        hexSanitized = hexSanitized.hasPrefix("#") ? String(hexSanitized.dropFirst()) : hexSanitized
+
+        let length = hexSanitized.count
+        var rgb: UInt64 = 0
+
+        guard Scanner(string: hexSanitized).scanHexInt64(&rgb) else { return nil }
+
+        let r, g, b: CGFloat
+        if length == 6 {
+            r = CGFloat((rgb & 0xFF0000) >> 16) / 255.0
+            g = CGFloat((rgb & 0x00FF00) >> 8) / 255.0
+            b = CGFloat(rgb & 0x0000FF) / 255.0
+
+            self.init(red: r, green: g, blue: b, alpha: 1.0)
+        } else {
+            return nil
+        }
+    }
+}
+
+// Color 확장: hex 문자열을 Color로 변환하는 함수 (함수 이름을 변경)
+extension Color {
+    static func fromHex(_ hex: String) -> Color? {
+        guard let uiColor = UIColor(hex: hex) else { return nil }
+        return Color(uiColor)
+    }
+}
+```
+
+사용법
+``` swift
+.background(selectedCategory == category ? Color.fromHex("#5fc567") ?? Color.gray : .white)
+guard let rgb = UInt64(hexSanitized, radix: 16) else { return nil }
+``` 
+[🔝](#Color_D)
